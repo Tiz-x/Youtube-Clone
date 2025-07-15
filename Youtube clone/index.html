@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="left-section">
+            <i class="fas fa-bars"></i>
+            <img src="yt_1200 copy copy.png" class="youtube-logo" alt="YouTube Logo">
+        </div>
+        
+        <div class="middle-section">
+            <div class="search-bar">
+                <input type="text" placeholder="Search">
+                <button class="search-btn">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+            <button class="voice-search-btn" >
+                <i class="fas fa-microphone"></i>
+            </button>
+        </div>
+
+        <div class="right-section">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-bell"></i>
+            <div class="profile-icon"><img src="profileImage.jpg" alt=""></div>
+        </div>
+    </header>
+
+    <div class="category-bar">
+        <button class="category-button active">All</button>
+        <button class="category-button">Music</button>
+        <button class="category-button">Gaming</button>
+        <button class="category-button">Live</button>
+        <button class="category-button">News</button>
+        <button class="category-button">Sports</button>
+        <button class="category-button">Learning</button>
+        <button class="category-button">Fashion</button>
+        <button class="category-button">Web Development</button>
+        <button class="category-button">Science Fiction</button>
+        <button class="category-button">Universal Pictures</button>
+    </div>
+
+    <nav class="sidebar">
+        <div class="sidebar-link">
+            <i class="fas fa-home"></i>
+            <span>Home</span>
+        </div>
+        <div class="sidebar-link">
+            <i class="fas fa-compass"></i>
+            <span>Explore</span>
+        </div>
+        <div class="sidebar-link">
+            <i class="fas fa-play-circle"></i>
+            <span>Shorts</span>
+        </div>
+        <div class="sidebar-link">
+            <i class="fab fa-youtube"></i>
+            <span>Subscriptions</span>
+        </div>
+        <div class="sidebar-link">
+            <i class="fas fa-book"></i>
+            <span>Library</span>
+        </div>
+    </nav>
+
+    <main class="content">
+        <div class="videos-grid">
+            <!-- Video Cards (repeated 12 times for grid layout) -->
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 1.avif" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 1.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">How to Make an Army with After Effects & Blender</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumnail image 2.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 2.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Charlie Chaplin - The Kid - Fight Scene</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 3.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 3.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Aquaman vs Black Manta. Sicily | Aquaman [4k, HDR]</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 4.avif" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 4.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Responsive Login Form with HTML & CSS 💻 | Modern UI Design for Beginnerssss</h3>
+                        <p class="channel-name">Tiz Code</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 5.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 5.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Usain Bolt vs Cheetah | 3D Speed Comparison</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 6.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 6.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Final Destination 2 - Best Scenes</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 7.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 7.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Sia - Unstoppable | Wonder Woman [Chase Scene]</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 8.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 8.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">The Lion's Cage (Charlie Chaplin), Music Composed by Colin Bruce</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 9.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 9.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">First To The Gate - Magical Short Film w/ Zach King</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 10 .webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 10.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Just a Normal Bike Math: 0.5 х 2 = 1 Wheel</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 11.webp" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 11.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Free Guy (2021) Final Battle with healthbars (WATERMARKED Version)</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="video-card">
+                <div class="thumbnail">
+                    <img src="images/thumbnail image 12.avif" alt="Video Thumbnail">
+                    <span class="duration">12:45</span>
+                </div>
+                <div class="video-info">
+                    <div class="channel-icon">
+                        <img src="images/channel image 12.jpg" alt="Channel Icon">
+                    </div>
+                    <div class="video-details">
+                        <h3 class="video-title">Pink Panther Bowls a Strike | 35-Minute Compilation | Pink Panther and Pals</h3>
+                        <p class="channel-name">Channel Name</p>
+                        <p class="video-stats">123K views • 2 hours ago</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+</body>
+</html>
